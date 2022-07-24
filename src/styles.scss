@@ -1,0 +1,32 @@
+$color-success: #58ba2e;
+$color-danger: #ff4d5e;
+
+
+.inputwith{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  input{
+    padding: 10px;
+  }
+}
+.inputwitherror {
+  input {
+    border: 1px solid $color-danger;
+  }
+  h6 {
+    display: flex;
+    align-items: center;
+    font-family: "Urbanist";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-danger;
+    margin: 5px;
+    svg {
+      margin-right: 5px;
+    }
+  }
+}
